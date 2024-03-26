@@ -1,0 +1,70 @@
+/* * {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.text-01-01 {
+    font-size: 32px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-02-odd {
+    font-family: Verdana,'DejaVu Sans', sans-serif;
+    background-color: #ffa7a7;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#text-02-02 {
+    color: #0000ff;
+    font-size: 36px;
+    height: 36px;
+}
+
+.text-02-03 {
+    font-size: 24px;
+}
+
+#text-02-04 {
+    background-color: #80ff80;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* The first element: a black background, white text color, and a bold font weight
+The second element: a yellow background
+Both elements: a font size of 28px and a list of fonts containing Helvetica and Times New Roman, with sans-serif as a fallback */
+
+.text-03 {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+
+.text-03-01 {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    height: auto;
+    display: inline-block;
+    width: 170px;
+}
+
+.text-03-02 {
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    height: auto;
+    width: 200px;
+    display: inline-block;
+}
+
+.container-05 .text-05 {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
