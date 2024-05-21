@@ -1,8 +1,10 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  /* we can use this text-align to set all the text in body into center*/
 }
 
 img {
@@ -14,19 +16,28 @@ img {
   font-size: 36px;
   font-weight: 900;
   align-content: flex-start;
+  margin: 32px;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  gap: 52px;
   /* align-content: flex-end; */
 }
 
-.text {
+.card {
+  max-width: 200px;
+  /* height: auto;
   display: flex;
-  align-content: flex-end;
+  flex-direction: column;
+  align-items: center; */
 }
 
+.text {
+  text-wrap: wrap;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
